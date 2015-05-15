@@ -118,6 +118,7 @@ With Parse.com as backend, and web to display results.
 
 #### React-cropper (Open Source)
 [https://www.npmjs.com/package/react-cropper](https://www.npmjs.com/package/react-cropper)
+[Demo](http://roadmanfong.github.io/react-cropper/example/)
 
 This is web cropper image tool in React.js
 
