@@ -117,8 +117,8 @@ With Parse.com as backend, and web to display results.
 * Repo: [https://github.com/roadmanfong/kptaipei-election-report](https://github.com/roadmanfong/kptaipei-election-report)
 
 #### React-cropper (Open Source)
-[https://www.npmjs.com/package/react-cropper](https://www.npmjs.com/package/react-cropper)
-[Demo](http://roadmanfong.github.io/react-cropper/example/)
+* [https://www.npmjs.com/package/react-cropper](https://www.npmjs.com/package/react-cropper)
+* [Demo](http://roadmanfong.github.io/react-cropper/example/)
 
 This is web cropper image tool in React.js
 
