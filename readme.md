@@ -14,6 +14,7 @@
 
 * React/Flux 
 * Backbone.js/jQuery
+* ES6/Coffee Script
 * Browserify/Webpack 
 * Bootstrap 
 * NodeJS 
