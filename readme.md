@@ -33,7 +33,7 @@
 [http://www.quantatw.com/](http://www.quantatw.com/)
 
 __Senior Engineer__
-*Mar. 2012 - Present*
+*Mar. 2012 - Dec. 2015*
 
 Quanta Research Institute is strategically positioned within Quanta Group in technology research and product research to identify and accelerate next-generation technologies that can be rapidly and tightly integrated into the product development chain of all business units.
 
