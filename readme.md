@@ -56,7 +56,7 @@ A10 Networks is a U.S. public company, based in San Jose, Calif., that provides 
 [http://www.quantatw.com/](http://www.quantatw.com/)
 
 __Senior Engineer__
-*Mar. 2012 - Dec. 2016*
+*Mar. 2012 - Dec. 2015*
 
 Quanta Research Institute is strategically positioned within Quanta Group in technology research and product research to identify and accelerate next-generation technologies that can be rapidly and tightly integrated into the product development chain of all business units.
 
@@ -142,7 +142,8 @@ With Parse.com as backend, and web to display results.
 * Repo: [https://github.com/roadmanfong/kptaipei-election-report](https://github.com/roadmanfong/kptaipei-election-report)
 
 #### React-cropper (Open Source)
-[https://www.npmjs.com/package/react-cropper](https://www.npmjs.com/package/react-cropper)
+* [https://www.npmjs.com/package/react-cropper](https://www.npmjs.com/package/react-cropper)
+* [Demo](http://roadmanfong.github.io/react-cropper/example/)
 
 This is web cropper image tool in React.js
 
