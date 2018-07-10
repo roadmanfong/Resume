@@ -26,9 +26,9 @@
 
 -----
 
-### Experience
+## Experience
 
-#### Chelpis
+### Chelpis
 [https://www.chelpis.com/](https://www.chelpis.com/)
 
 __AP Leader__
@@ -40,7 +40,7 @@ __AP Leader__
 * Made app with react-native, and track user's usage
 * Integrated web and app with backend api
 
-#### A10 Networks
+### A10 Networks
 [https://www.a10networks.com/](https://www.a10networks.com/)
 
 __Senior Engineer__
@@ -52,7 +52,7 @@ A10 Networks is a U.S. public company, based in San Jose, Calif., that provides 
 * Developed internal collaboration tool
 * Maintained 2 main products
 
-#### Quanta Computer Inc.
+### Quanta Computer Inc.
 [http://www.quantatw.com/](http://www.quantatw.com/)
 
 __Senior Engineer__
@@ -65,22 +65,20 @@ Quanta Research Institute is strategically positioned within Quanta Group in tec
 * Cooperate with design, backend, iOS and Android teams as frontend developer and develop excellent communication skill.
 * Introduced modularized code and BBD unit testing.
 
-#### Coast Guard Service (Military Service)
-[http://www.cga.gov.tw/](http://www.cga.gov.tw/)
-
-__Project manager__
-*Sep. 2010 - Aug. 2011*
-
-* Lead team to maintain existing system and develop new features.
-* Develop Manage Information System with ASP.net and Microsoft SQL
-
 -----
 
-### Projects
+## Projects
 
-####
+### Thunder
 
-#### MommyQ & BabyQ
+* A10 Thunder® ADC (Application Delivery Controllers) are high-performance solutions to enable customer applications to be highly available, accelerated and secure
+* A10 Thunder® CFW (Convergent Firewall) consolidates data center firewall, Gi/SGi firewall, secure web gateway and IPsec site-to-site VPN capabilities into a single solution that also includes all Thunder ADC, CGN and SSLi features.
+* A10 THunder® TPS Distributed denial-of-service protection
+
+I am the developer to make web interface to control the device. The web interface provides plenty of forms to help user change the configuration, also there's visual tool for managing netowkr status
+
+
+### MommyQ & BabyQ
 [http://apps.quanta-research.net/babyq](http://apps.quanta-research.net/babyq)
 
 Hybrid HTML 5 app is available (functions appropriately/ supports) in varied platforms - Windows(deprecated), iOS & Android
@@ -90,7 +88,7 @@ I am the main developer of UI. Implemented flow, layout the appearance and tried
 
 * App Review: [http://weekly.ascii.jp/elem/000/000/163/163871/?rankipa](http://weekly.ascii.jp/elem/000/000/163/163871/?rankipa)
 
-#### Fiabci 64
+### Fiabci 64
 Hybrid HTML 5 app is available (functions appropriately/ supports) in varied platforms - Windows(deprecated), iOS & Android
 
 This app is for FIABCI 64th World Congress. With jQuery mobile framework, we shorten develop period. It took 1 months to get basic functions working.
@@ -98,12 +96,12 @@ This app is for FIABCI 64th World Congress. With jQuery mobile framework, we sho
 * iOS: [https://itunes.apple.com/us/app/fiabci-64/id642338910?mt=8](https://itunes.apple.com/us/app/fiabci-64/id642338910?mt=8)
 * Android: [https://play.google.com/store/apps/details?id=com.quanta.fl1.fiabci64&hl=zh_TW](https://play.google.com/store/apps/details?id=com.quanta.fl1.fiabci64&hl=zh_TW)
 
-#### Quanta Research Institude Official Web
+### Quanta Research Institude Official Web
 [http://www.quanta-research.net/](http://www.quanta-research.net/)
 
 This is an official website of QRI. Scenario will change along with numerous special effects when you scroll down/up on this page where techniques of skrollr.js are widely applied.
 
-#### Phollow
+### Phollow
 [http://www.phollowapp.com/](http://www.phollowapp.com/)
 
 A Hybrid HTML 5 app available iOS & Android
@@ -119,7 +117,7 @@ We also have a website for this app.
 Use Bootstrap to make our website responsive to all devices and mobile friendly.
 
 
-#### QOCA Home
+### QOCA Home
 
 QOCA is a product target on smart health care service.
 
@@ -131,7 +129,7 @@ Introduced Mocha.js to do BDD testing.
 Meanwhile,I trained 3 team members to implement features.
 
 
-#### 2014 Taipei Mayor Election Report system (Open Source)
+### 2014 Taipei Mayor Election Report system (Open Source)
  [https://db.tt/MYId10Rf](https://db.tt/MYId10Rf)
 
 2,700 Volunteers join this citizen activity.
@@ -149,8 +147,8 @@ This is web cropper image tool in React.js
 
 -----
 
-### Education
-#### NATIONAL CHENG CHI UNIVERSITY
+## Education
+### NATIONAL CHENG CHI UNIVERSITY
 Taipei, Taiwan
 
 __Bachelor of Mathematical Sciences__
@@ -159,7 +157,7 @@ __Bachelor of Mathematical Sciences__
 1. Develop school’s official classroom information system with PHP and MySQL. (2007~2008)
 2. Fencing Club Coordinate daily team practice , winning 1st prize in Fencing Group Competition.(2007)
 
-#### NATIONAL CENTRAL UNIVERSITY
+### NATIONAL CENTRAL UNIVERSITY
 Taoyuan, Taiwan
 
 __Master of Communication Engineering__
@@ -170,7 +168,7 @@ Additional Information
 
 -----
 
-### Certificate
+## Certificate
 1. TOEIC 905 2011 Aug
 2. JLPT N3 2014
 
