@@ -75,7 +75,8 @@ Quanta Research Institute is strategically positioned within Quanta Group in tec
 * A10 Thunder® CFW (Convergent Firewall) consolidates data center firewall, Gi/SGi firewall, secure web gateway and IPsec site-to-site VPN capabilities into a single solution that also includes all Thunder ADC, CGN and SSLi features.
 * A10 THunder® TPS Distributed denial-of-service protection
 
-I am the developer to make web interface to control the device. The web interface provides plenty of forms to help user change the configuration, also there's visual tool for managing netowkr status
+I am the developer to make web interface to control the device.
+The web interface provides plenty of forms to help user change the configuration and visual tool for managing network status.
 
 
 ### MommyQ & BabyQ
