@@ -116,3 +116,10 @@ _Mar. 2012 - Dec. 2015_
 
 **National Cheng Chi University, Bachelor of Mathematical Sciences**
 2008
+
+---
+
+### Certificates
+
+1. TOEIC 905 2011 Aug
+2. JLPT N3 2014

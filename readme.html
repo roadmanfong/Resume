@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>readme.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="kuang-hui-fong---senior-frontend-developer">Kuang Hui Fong - Senior Frontend Developer</h1>
+<blockquote>
+<p><a href="fongkuanghui@gmail.com">fongkuanghui@gmail.com</a></p>
+<p>Github: <a href="https://github.com/roadmanfong">https://github.com/roadmanfong</a></p>
+</blockquote>
+<hr>
+<h2 id="summary">Summary</h2>
+<p>A frontend engineer. For the past 8 years, I've be developing web and app with react and react native. Always enjoy working with people and being engaged in problem solving.</p>
+<hr>
+<h2 id="technical-skills">Technical Skills</h2>
+<ul>
+<li>React/React Native/Electron/Redux/Typescript/Django/Python</li>
+<li>Git/Svn/Webpack/Grunt/Yulp/Mocha/Jasmine</li>
+<li>NodeJS/Express.js/MySql/RethinkDB</li>
+</ul>
+<hr>
+<h2 id="experience">Experience</h2>
+<h3 id="chelpis-co---httpswwwchelpiscom">Chelpis Co. - <a href="https://www.chelpis.com/">https://www.chelpis.com/</a></h3>
+<p><strong>AP Leader</strong>
+<em>Sept. 2017 - Present</em></p>
+<ul>
+<li>Defined feature specifications with team and customer.</li>
+<li>Collaborated with UX designer to build user-friendly interface.</li>
+<li>Developed app for device with Bluetooth and NFC</li>
+<li>Setup CI for linting, text, build, deploy and notify status.</li>
+<li>Created component and tools library to reduced development cost.</li>
+</ul>
+<h3 id="a10-networks---httpswwwa10networkscom">A10 Networks - <a href="https://www.a10networks.com/">https://www.a10networks.com/</a></h3>
+<p><strong>Senior Engineer</strong>
+<em>Jan. 2016 - Aug. 2017</em></p>
+<ul>
+<li>Designed the GUI flow and developed features, maintained 2 main products.</li>
+<li>Developed internal collaboration tool side project.</li>
+</ul>
+<h3 id="quanta-computer-inc---httpwwwquantatwcom">Quanta Computer Inc. - <a href="http://www.quantatw.com/">http://www.quantatw.com/</a></h3>
+<p><strong>Senior Engineer</strong>
+<em>Mar. 2012 - Dec. 2015</em></p>
+<ul>
+<li>Lead javascript techniques programming and survey the latest(up-to date) approach(method, knowledge) of Javascript and HTML.</li>
+<li>Establish coding convention and introduced modularized code and BBD unit testing.</li>
+<li>Cooperate with design, backend, iOS and Android teams as frontend developer and develop excellent communication skill.</li>
+</ul>
+<hr>
+<h2 id="projects">Projects</h2>
+<h3 id="open-source">Open Source</h3>
+<ul>
+<li><a href="https://www.npmjs.com/package/react-cropper">React Cropper</a> A react library for cropping image. Weekly download about 50k, Github 1.4k stars.</li>
+<li><a href="https://www.npmjs.com/package/zustand-persist">Zustand Persist</a> A persist middleware for Zustand.js. Inspiring by redux-persist. Works on both React and React Native.</li>
+</ul>
+<h3 id="chelpis-co-podrick---tta-startup-terrace-tacc-ios-app-android-app">Chelpis Co.: Podrick - <a href="https://startup.tta-crm.org/">TTA</a>, <a href="https://bookingsystem.startupterrace.tw/">Startup Terrace</a>, <a href="https://taccplus.podrick.chelpis.com/">TACC+</a>, <a href="https://apps.apple.com/us/app/id1481024992">iOS App</a>, <a href="https://play.google.com/store/apps/details?id=com.chelpis.podrick">Android App</a></h3>
+<ul>
+<li>Co-working space CRM system.</li>
+<li>Resident can book the meeting room or apply a special event on website or mobile app.</li>
+<li>Admin can manage membership, client's bill, payment.</li>
+</ul>
+<h3 id="chelpis-co-authenticator---android-appios-app">Chelpis Co.: Authenticator - <a href="https://play.google.com/store/apps/details?id=com.chelpis.authenticator">Android App</a><a href="https://apps.apple.com/us/app/chelpis-authenticator/id1538105084">iOS App</a></h3>
+<ul>
+<li>App provided strong security on login and other sensitive actions.</li>
+<li>Support Wallet Connect protocol.</li>
+<li>Integrated with CoolWallet S via Bluetooth.</li>
+</ul>
+<h3 id="chelpis-co-hkxc---android-app">Chelpis Co.: HKXC - <a href="https://play.google.com/store/apps/details?id=com.chelpis.hkdx">Android App</a></h3>
+<ul>
+<li>Crypto currency App for private Ethereum Blockchain Service.</li>
+<li>Management System Web for Admin.</li>
+</ul>
+<h3 id="chelpis-co-pain-scale-app---ios-app-android-app">Chelpis Co.: Pain Scale App - <a href="https://appstoreconnect.apple.com/apps/1452815653/appstore">iOS App</a>, <a href="https://play.google.com/store/apps/details?id=com.chelpis.painscale">Android App</a></h3>
+<ul>
+<li>Pain management. Track the pain level and medicine usage</li>
+</ul>
+<h3 id="chelpis-co-kelvin-wallet---httpswwwkelvinwalletcom">Chelpis Co.: Kelvin Wallet - <a href="https://www.kelvinwallet.com/">https://www.kelvinwallet.com/</a></h3>
+<ul>
+<li>An Electron desktop App for our cold wallet production, Kelvin Wallet. Support Bitcoin and Ethereum</li>
+</ul>
+<h3 id="chelpis-co-other-side-projects">Chelpis Co.: Other Side projects</h3>
+<ul>
+<li>Implemented rn sdk of CoolWalletS</li>
+<li>E-learning: Online video education platform for non-chinese speaker to learn chinese.</li>
+<li>iFancy: admin web for heat map camera, hot-spot analysis.</li>
+<li>Elderly share notes: bronze medal of TCA open-data contest. Use block chain to store share notes.</li>
+</ul>
+<h3 id="a10networks-thunder">A10Networks: Thunder</h3>
+<ul>
+<li>The web interface provides plenty of forms to help user change the configuration and visual tool for managing network status.</li>
+</ul>
+<h3 id="quanta-mommyq--babyq-closed-project---httpappsquanta-researchnetbabyq">Quanta: MommyQ &amp; BabyQ (Closed Project) - <a href="http://apps.quanta-research.net/babyq">http://apps.quanta-research.net/babyq</a></h3>
+<ul>
+<li>Turn a cell-phone into a baby monitor for surveillance and interaction purpose</li>
+<li>A hybrid App. Based on HTML 5, we made a great effort on performance tuning.</li>
+<li>App Review: <a href="http://weekly.ascii.jp/elem/000/000/163/163871/?rankipa">http://weekly.ascii.jp/elem/000/000/163/163871/?rankipa</a></li>
+</ul>
+<h3 id="quanta-phollow---httpwwwphollowappcom">Quanta: Phollow - <a href="http://www.phollowapp.com/">http://www.phollowapp.com/</a></h3>
+<ul>
+<li>A geolocation based App. User have to be in certain location to see unlocked message.</li>
+<li>A Hybrid HTML 5 app available iOS &amp; Android. Develop with Cordova.js. We made several Cordova plugins to achieve our need. And do unit test in each plugin to ensure stability.</li>
+<li>Cooperate with LevelUp.com, a mobile payment in US and integrate their API so user can pay the money and get discount bonus.</li>
+</ul>
+<hr>
+<h2 id="education">Education</h2>
+<p><strong>National Central University, Master of Communication Engineering</strong>
+2010</p>
+<p><strong>National Cheng Chi University, Bachelor of Mathematical Sciences</strong>
+2008</p>
+
+</body>
+</html>
