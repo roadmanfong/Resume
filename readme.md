@@ -8,7 +8,7 @@
 
 ## Summary
 
-A frontend engineer. For the past 8 years, I've be developing web and app with react and react native. Always enjoy working with people and being engaged in problem solving.
+A frontend engineer. For the past 8 years, I've been developing web and apps with react and react native. Always enjoy working with people and being engaged in problem solving.
 
 ---
 
@@ -28,10 +28,10 @@ A frontend engineer. For the past 8 years, I've be developing web and app with r
 _Sept. 2017 - Present_
 
 - Defined feature specifications with team and customer.
-- Collaborated with UX designer to build user-friendly interface.
+- Collaborated with UX designers to build a user-friendly interface.
 - Developed app for device with Bluetooth and NFC
 - Setup CI for linting, text, build, deploy and notify status.
-- Created component and tools library to reduced development cost.
+- Created component and tools library to reduce development cost.
 
 ### A10 Networks - [https://www.a10networks.com/](https://www.a10networks.com/)
 
@@ -47,8 +47,8 @@ _Jan. 2016 - Aug. 2017_
 _Mar. 2012 - Dec. 2015_
 
 - Lead javascript techniques programming and survey the latest(up-to date) approach(method, knowledge) of Javascript and HTML.
-- Establish coding convention and introduced modularized code and BBD unit testing.
-- Cooperate with design, backend, iOS and Android teams as frontend developer and develop excellent communication skill.
+- Established coding convention and introduced modularized code and BBD unit testing.
+- Cooperate with design, backend, iOS and Android teams as a frontend developer and develop excellent communication skills.
 
 ---
 
@@ -86,14 +86,15 @@ _Mar. 2012 - Dec. 2015_
 
 ### Chelpis Co.: Other Side projects
 
+- Implemented DeFi web and app with 0x
 - Implemented rn sdk of CoolWalletS
-- E-learning: Online video education platform for non-chinese speaker to learn chinese.
+- E-learning: Online video education platform for non-chinese speakers to learn chinese.
 - iFancy: admin web for heat map camera, hot-spot analysis.
-- Elderly share notes: bronze medal of TCA open-data contest. Use block chain to store share notes.
+- Elderly share notes: bronze medal of TCA open-data contest. Used blockchain to store shared notes.
 
 ### A10Networks: Thunder
 
-- The web interface provides plenty of forms to help user change the configuration and visual tool for managing network status.
+- The web interface provides plenty of forms to help users change the configuration and visual tool for managing network status.
 
 ### Quanta: MommyQ & BabyQ (Closed Project) - [http://apps.quanta-research.net/babyq](http://apps.quanta-research.net/babyq)
 
@@ -103,9 +104,9 @@ _Mar. 2012 - Dec. 2015_
 
 ### Quanta: Phollow - [http://www.phollowapp.com/](http://www.phollowapp.com/)
 
-- A geolocation based App. User have to be in certain location to see unlocked message.
-- A Hybrid HTML 5 app available iOS & Android. Develop with Cordova.js. We made several Cordova plugins to achieve our need. And do unit test in each plugin to ensure stability.
-- Cooperate with LevelUp.com, a mobile payment in US and integrate their API so user can pay the money and get discount bonus.
+- A geolocation based App. User has to be in a certain location to unlock secret messages.
+- A Hybrid HTML 5 app available iOS & Android. Develop with Cordova.js. We made several Cordova plugins to achieve our needs. And do unit tests in each plugin to ensure stability.
+- Cooperate with LevelUp.com, a mobile payment in US and integrate their API so user can pay the money and get a discount bonus.
 
 ---
 
